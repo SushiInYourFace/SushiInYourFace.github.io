@@ -9,8 +9,9 @@
 }
 
 #blankboi{
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: relative;
+    left: 35%;
+    top: 40%;
     color: blue;
+    font-size: 50px;
 }
