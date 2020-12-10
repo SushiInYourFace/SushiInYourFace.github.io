@@ -1,6 +1,9 @@
 .heading {
     text-align: center;
 }
+html {
+    overflow-x: hidden;
+}
 #gamer_button{
     position: fixed;
     top: 10px;
