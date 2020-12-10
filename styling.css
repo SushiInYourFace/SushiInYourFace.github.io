@@ -54,7 +54,7 @@ html {
     bottom: 5px; 
     left: 5px
 }
-#smallhead{
+.smallhead{
     position: absolute;
     font-size: 7vh;
     display: flex;
@@ -71,4 +71,23 @@ html {
     position: absolute;
     text-align: center;
     top: 20vh;
+}
+.content{
+    position: absolute;
+    top: 10vh;
+    height: 90vh;
+    left: 0;
+    width: 100vw;
+}
+#buttonbox{
+    position: absolute;
+    top: 20vh;
+    left: 35vw;
+    width: 30vw;
+    height: 50vh;
+}
+.dlbutton{
+    font-size: 5vh;
+    margin: 20px;
+    border-radius: 15px;
 }
