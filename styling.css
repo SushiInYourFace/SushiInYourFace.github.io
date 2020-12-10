@@ -24,6 +24,12 @@
     color: #967BB6;
     font-size: 30px;
 }
+#firestar{
+    font-size: 31px;
+    position: relative;
+    top: -125px;
+    left: 125px;
+}
 
 #rocky{
     font-size: 3px;
