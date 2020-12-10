@@ -22,7 +22,7 @@
 
 #zevry{
     color: #967BB6;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 #rocky{
@@ -30,5 +30,5 @@
     color: blue;
     position: absolute;
     bottom: 5px; 
-    left: 5px;
+    left: 5px
 }
