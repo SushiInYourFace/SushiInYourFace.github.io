@@ -1,4 +1,4 @@
-#heading {
+.heading {
     text-align: center;
     position: absolute;
     top: 0;
@@ -23,24 +23,20 @@ html {
     float: right;
     margin: 5px;
 }
-
 .button2{
     float: right;
     margin: 5px;
 }
-
 #blankboi{
     text-align: center;
     color: red;
     font-size: 50px;
 }
-
 .gamers{
     font-family: "Comic Sans MS", cursive, sans-serif;
     color: limegreen;
     font-size: 25px;
 }
-
 #zevry{
     color: #967BB6;
     font-size: 30px;
@@ -51,11 +47,28 @@ html {
     top: -125px;
     left: 125px;
 }
-
 #rocky{
     font-size: 3px;
     color: blue;
     position: absolute;
     bottom: 5px; 
     left: 5px
+}
+#smallhead{
+    position: absolute;
+    font-size: 7vh;
+    display: flex;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    width: 100vw;
+    height: 10vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#picturetext{
+    position: absolute;
+    text-align: center;
+    top: 15vh;
 }
