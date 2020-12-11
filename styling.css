@@ -62,22 +62,28 @@ html {
     left: 0;
     background-color: grey;
     width: 100vw;
-    height: 10vw;
+    height: 15vh;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 #picturetext{
     position: absolute;
-    text-align: center;
-    top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
 }
 .content{
     position: absolute;
-    top: 10vh;
-    height: 90vh;
+    top: 15vh;
+    height: 85vh;
     left: 0;
     width: 100vw;
+    background-color:#bababa;
+    text-align: center;
 }
 #buttonbox{
     position: absolute;
@@ -87,7 +93,7 @@ html {
     height: 50vh;
 }
 .dlbutton{
-    font-size: 5vh;
-    margin: 20px;
-    border-radius: 15px;
+    font-size: 2.5vh;
+    margin: 10px;
+    border-radius: 10px;
 }
